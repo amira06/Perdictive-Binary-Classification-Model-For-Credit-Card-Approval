@@ -65,10 +65,10 @@ Age is normally distributed, but slightly skewed more towards younger Ages. Whic
 # Confusion Matrix 
 Confusion will help measure all possible combinations of the number of counts values of correct and incorrect predictions. The percentile function was used to compute the confusion matrix of the combined variable to set the threshold for our data set. If the combined variable turns out to be less than ( < ) the threshold it will predict “1” which is approved in our case. If the combined variable turns out to be  greater than or equal to (>=) than the threshold it will predict “0” which is denied.
 
-●	True Negative (TP): the actual and the predicted value are negative (0)
-●	False Positive (FP): the actual value is negative (0) but the predicted value is positive (1)
-●	 False Negative (TN): the actual value is positive (1) but the predicted value is negative (0)
-●	 True Positive (TP):  the actual and the predicted value are positive (1)
+- True Negative (TP): the actual and the predicted value are negative (0)
+- False Positive (FP): the actual value is negative (0) but the predicted value is positive (1)
+- False Negative (TN): the actual value is positive (1) but the predicted value is negative (0)
+- True Positive (TP):  the actual and the predicted value are positive (1)
 
 # Roc (Receiver Operating Characteristic) Curve 
 The quality of our prediction model is measured by computing the total area under the ROC curve. The closer the curve is on the upper right corner of the graph the better it is. The value of True Positives is greater than the value of False Negatives indicated by the high value of Y-axis. The value of False Positives is greater than the value of True Negatives indicated by the high value of x-axis. 
