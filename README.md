@@ -1,6 +1,6 @@
 # Perdictive-Binary-Classification-Model-For-Credit-Card-Approval
 
-#Introduction
+# Introduction
 Credit card application approvals are important business decisions for financial institutions and bankers based on customer information. With thousands of applications, these institutions utilize data analysis for decision making to evaluate credit card applicants. To better evaluate the prediction performance of binary classification models this paper uses the credit application data taken from the UCI machine learning repository. This project aims to build a classification model using Confusion Matrix to determine if applicants will be approved for credit card or denied using the applicant’s information. I specifically looked at variables such as Years Employed, Age and lastly Approved as target my variable. To test the model, I accessed the accuracy and Roc curve to evaluate the prediction model. 
 
 # Data Source
